@@ -10,6 +10,9 @@ class pantalla{
         icono_burger: '#react-burger-menu-btn',
         logout: '[data-test=logout-sidebar-link]'
     }
+    productos = {
+        
+    }
 }
 
 module.exports = new pantalla()

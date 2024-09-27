@@ -1,5 +1,5 @@
-import pantalla from "./selectores/pantalla.js"
-import mensajes from "./selectores/mensajes.js"
+import pantalla from "../selectores/pantalla.js"
+import mensajes from "../selectores/mensajes.js"
 
 describe('Login Saucedemo.com', () => {
 

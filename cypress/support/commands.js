@@ -6,9 +6,10 @@ Cypress.Commands.add('escribir', (selector, dato) => {
 
 Cypress.Commands.add('hacer_click', (selector) => { 
     cy.get(selector).click()
-    //cy.get(selector).realClickclick()
+    //cy.get(selector).realClick()
 })
  
 Cypress.Commands.add('asertion_texto', (selector, texto) => { 
-   cy.get(selector).should('have.text',texto)
+    cy.get(selector).should('have.text', texto)
+    
 })
